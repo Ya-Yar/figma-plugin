@@ -1,0 +1,1392 @@
+{
+  "spacing": {
+    "$spacer-01": {
+      "value": "{$1rem}*0.125",
+      "type": "spacing"
+    },
+    "$spacer-02": {
+      "value": "{$1rem}*0.25",
+      "type": "spacing"
+    },
+    "$spacer-03": {
+      "value": "{$1rem}*0.5",
+      "type": "spacing"
+    },
+    "$spacer-04": {
+      "value": "{$1rem}*0.75",
+      "type": "spacing"
+    },
+    "$spacer-05": {
+      "value": "{$1rem}",
+      "type": "spacing"
+    },
+    "$spacer-06": {
+      "value": "{$1rem}*1.5",
+      "type": "spacing"
+    },
+    "$spacer-07": {
+      "value": "{$1rem}*2",
+      "type": "spacing"
+    },
+    "$spacer-08": {
+      "value": "{$1rem}*2.5",
+      "type": "spacing"
+    },
+    "$spacer-09": {
+      "value": "{$1rem}*3",
+      "type": "spacing"
+    },
+    "$spacer-10": {
+      "value": "{$1rem}*4",
+      "type": "spacing"
+    },
+    "$spacer-11": {
+      "value": "{$1rem}*5",
+      "type": "spacing"
+    },
+    "$spacer-12": {
+      "value": "{$1rem}*6",
+      "type": "spacing"
+    },
+    "$spacer-13": {
+      "value": "{$1rem}*10",
+      "type": "spacing"
+    }
+  },
+  "sizing": {
+    "$scale-01": {
+      "value": "1.5",
+      "type": "sizing"
+    },
+    "$scale-02": {
+      "value": "4",
+      "type": "sizing"
+    },
+    "$scale-03": {
+      "value": "{sizing.$scale-02} * {sizing.$scale-01}",
+      "type": "sizing"
+    },
+    "$scale-04": {
+      "value": "{sizing.$scale-03} * {sizing.$scale-01}",
+      "type": "sizing"
+    },
+    "$scale-05": {
+      "value": "{sizing.$scale-04} * {sizing.$scale-01}",
+      "type": "sizing"
+    },
+    "$scale-06": {
+      "value": "{sizing.$scale-05} * {sizing.$scale-01}",
+      "type": "sizing"
+    }
+  },
+  "borderRadius": {
+    "$border-radius-xs": {
+      "value": "{$1rem}*0.125",
+      "type": "borderRadius"
+    },
+    "$border-radius-sm": {
+      "value": "{$1rem}*0.25",
+      "type": "borderRadius"
+    },
+    "$border-radius": {
+      "value": "{$1rem}*0.375",
+      "type": "borderRadius"
+    },
+    "$border-radius-lg": {
+      "value": "{$1rem}*0.5",
+      "type": "borderRadius"
+    },
+    "$border-radius-l": {
+      "value": "{$1rem}*0.75",
+      "type": "borderRadius"
+    },
+    "$border-radius-xl": {
+      "value": "{$1rem}",
+      "type": "borderRadius"
+    },
+    "$border-radius-2xl": {
+      "value": "{$1rem}*2",
+      "type": "borderRadius"
+    },
+    "$border-radius-pill": {
+      "value": "{$1rem}*50",
+      "type": "borderRadius"
+    }
+  },
+  "borderWidth": {
+    "$border-width-0": {
+      "value": "0",
+      "type": "borderWidth"
+    },
+    "$border-width-1": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "$border-width-2": {
+      "value": "2",
+      "type": "borderWidth"
+    },
+    "$border-width-3": {
+      "value": "3",
+      "type": "borderWidth"
+    },
+    "$border-width-4": {
+      "value": "4",
+      "type": "borderWidth"
+    },
+    "$border-width-8": {
+      "value": "8",
+      "type": "borderWidth"
+    }
+  },
+  "colors": {
+    "red": {
+      "$red-100": {
+        "value": "#f8d7da",
+        "type": "color"
+      },
+      "$red-200": {
+        "value": "#f2afad",
+        "type": "color"
+      },
+      "$red-300": {
+        "value": "#eb8786",
+        "type": "color"
+      },
+      "$red-400": {
+        "value": "#e35e62",
+        "type": "color"
+      },
+      "$red-500": {
+        "value": "#dc3546",
+        "type": "color"
+      },
+      "$red-600": {
+        "value": "#b02a37",
+        "type": "color"
+      },
+      "$red-700": {
+        "value": "#842029",
+        "type": "color"
+      },
+      "$red-800": {
+        "value": "#58151a",
+        "type": "color"
+      },
+      "$red-900": {
+        "value": "#2c0b0c",
+        "type": "color"
+      }
+    },
+    "orange": {
+      "$orange-100": {
+        "value": "#ffe5d0",
+        "type": "color"
+      },
+      "$orange-200": {
+        "value": "#fecba1",
+        "type": "color"
+      },
+      "$orange-300": {
+        "value": "#feb272",
+        "type": "color"
+      },
+      "$orange-400": {
+        "value": "#fd9843",
+        "type": "color"
+      },
+      "$orange-500": {
+        "value": "#fd7e14",
+        "type": "color"
+      },
+      "$orange-600": {
+        "value": "#ca6510",
+        "type": "color"
+      },
+      "$orange-700": {
+        "value": "#984c0c",
+        "type": "color"
+      },
+      "$orange-800": {
+        "value": "#653208",
+        "type": "color"
+      },
+      "$orange-900": {
+        "value": "#331904",
+        "type": "color"
+      }
+    },
+    "yellow": {
+      "$yellow-100": {
+        "value": "#fff3cd",
+        "type": "color"
+      },
+      "$yellow-200": {
+        "value": "#ffe69c",
+        "type": "color"
+      },
+      "$yellow-300": {
+        "value": "#ffda6a",
+        "type": "color"
+      },
+      "$yellow-400": {
+        "value": "#ffcd39",
+        "type": "color"
+      },
+      "$yellow-500": {
+        "value": "#ffc107",
+        "type": "color"
+      },
+      "$yellow-600": {
+        "value": "#cc9a06",
+        "type": "color"
+      },
+      "$yellow-700": {
+        "value": "#997404",
+        "type": "color"
+      },
+      "$yellow-800": {
+        "value": "#664d03",
+        "type": "color"
+      },
+      "$yellow-900": {
+        "value": "#332701",
+        "type": "color"
+      }
+    },
+    "green": {
+      "$green-100": {
+        "value": "#d1e7dd",
+        "type": "color"
+      },
+      "$green-200": {
+        "value": "#a3cfbb",
+        "type": "color"
+      },
+      "$green-300": {
+        "value": "#75b798",
+        "type": "color"
+      },
+      "$green-400": {
+        "value": "#479f76",
+        "type": "color"
+      },
+      "$green-500": {
+        "value": "#198754",
+        "type": "color"
+      },
+      "$green-600": {
+        "value": "#146c43",
+        "type": "color"
+      },
+      "$green-700": {
+        "value": "#0f5132",
+        "type": "color"
+      },
+      "$green-800": {
+        "value": "#0a3622",
+        "type": "color"
+      },
+      "$green-900": {
+        "value": "#051b11",
+        "type": "color"
+      }
+    },
+    "teal": {
+      "$teal-100": {
+        "value": "#d2f4ea",
+        "type": "color"
+      },
+      "$teal-200": {
+        "value": "#a6e9d5",
+        "type": "color"
+      },
+      "$teal-300": {
+        "value": "#79dfc1",
+        "type": "color"
+      },
+      "$teal-400": {
+        "value": "#4dd4ac",
+        "type": "color"
+      },
+      "$teal-500": {
+        "value": "#20c997",
+        "type": "color"
+      },
+      "$teal-600": {
+        "value": "#1aa179",
+        "type": "color"
+      },
+      "$teal-700": {
+        "value": "#13795b",
+        "type": "color"
+      },
+      "$teal-800": {
+        "value": "#0d503c",
+        "type": "color"
+      },
+      "$teal-900": {
+        "value": "#06281e",
+        "type": "color"
+      }
+    },
+    "cyan": {
+      "$cyan-100": {
+        "value": "#cff4fc",
+        "type": "color"
+      },
+      "$cyan-200": {
+        "value": "#9eeaf9",
+        "type": "color"
+      },
+      "$cyan-300": {
+        "value": "#6edff6",
+        "type": "color"
+      },
+      "$cyan-400": {
+        "value": "#3dd5f3",
+        "type": "color"
+      },
+      "$cyan-500": {
+        "value": "#0dcaf0",
+        "type": "color"
+      },
+      "$cyan-600": {
+        "value": "#0aa2c0",
+        "type": "color"
+      },
+      "$cyan-700": {
+        "value": "#087990",
+        "type": "color"
+      },
+      "$cyan-800": {
+        "value": "#055160",
+        "type": "color"
+      },
+      "$cyan-900": {
+        "value": "#032830",
+        "type": "color"
+      }
+    },
+    "blue": {
+      "$blue-100": {
+        "value": "#cfe2ff",
+        "type": "color"
+      },
+      "$blue-200": {
+        "value": "#9ec5fe",
+        "type": "color"
+      },
+      "$blue-300": {
+        "value": "#6ea8fe",
+        "type": "color"
+      },
+      "$blue-400": {
+        "value": "#3d8bfd",
+        "type": "color"
+      },
+      "$blue-500": {
+        "value": "#0d6efd",
+        "type": "color"
+      },
+      "$blue-600": {
+        "value": "#0a58ca",
+        "type": "color"
+      },
+      "$blue-700": {
+        "value": "#084298",
+        "type": "color"
+      },
+      "$blue-800": {
+        "value": "#052c65",
+        "type": "color"
+      },
+      "$blue-900": {
+        "value": "#031633",
+        "type": "color"
+      }
+    },
+    "indigo": {
+      "$indigo-100": {
+        "value": "#e0cffc",
+        "type": "color"
+      },
+      "$indigo-200": {
+        "value": "#c29ffa",
+        "type": "color"
+      },
+      "$indigo-300": {
+        "value": "#a370f7",
+        "type": "color"
+      },
+      "$indigo-400": {
+        "value": "#8540f5",
+        "type": "color"
+      },
+      "$indigo-500": {
+        "value": "#6610f2",
+        "type": "color"
+      },
+      "$indigo-600": {
+        "value": "#520dc2",
+        "type": "color"
+      },
+      "$indigo-700": {
+        "value": "#3d0a91",
+        "type": "color"
+      },
+      "$indigo-800": {
+        "value": "#290661",
+        "type": "color"
+      },
+      "$indigo-900": {
+        "value": "#140330",
+        "type": "color"
+      }
+    },
+    "purple": {
+      "$purple-100": {
+        "value": "#e2d9f3",
+        "type": "color"
+      },
+      "$purple-200": {
+        "value": "#c5b3e6",
+        "type": "color"
+      },
+      "$purple-300": {
+        "value": "#a98eda",
+        "type": "color"
+      },
+      "$purple-400": {
+        "value": "#8c68cd",
+        "type": "color"
+      },
+      "$purple-500": {
+        "value": "#6f42c1",
+        "type": "color"
+      },
+      "$purple-600": {
+        "value": "#59359a",
+        "type": "color"
+      },
+      "$purple-700": {
+        "value": "#432874",
+        "type": "color"
+      },
+      "$purple-800": {
+        "value": "#2c1a4d",
+        "type": "color"
+      },
+      "$purple-900": {
+        "value": "#160d27",
+        "type": "color"
+      }
+    },
+    "pink": {
+      "$pink-100": {
+        "value": "#f7d6e6",
+        "type": "color"
+      },
+      "$pink-200": {
+        "value": "#efadce",
+        "type": "color"
+      },
+      "$pink-300": {
+        "value": "#e685b5",
+        "type": "color"
+      },
+      "$pink-400": {
+        "value": "#de5c9d",
+        "type": "color"
+      },
+      "$pink-500": {
+        "value": "#d63384",
+        "type": "color"
+      },
+      "$pink-600": {
+        "value": "#ab296a",
+        "type": "color"
+      },
+      "$pink-700": {
+        "value": "#801f4f",
+        "type": "color"
+      },
+      "$pink-800": {
+        "value": "#561435",
+        "type": "color"
+      },
+      "$pink-900": {
+        "value": "#2b0a1a",
+        "type": "color"
+      }
+    },
+    "gray": {
+      "$gray-100": {
+        "value": "#f8f9fa",
+        "type": "color"
+      },
+      "$gray-200": {
+        "value": "#e9ecef",
+        "type": "color"
+      },
+      "$gray-300": {
+        "value": "#dee2e6",
+        "type": "color"
+      },
+      "$gray-400": {
+        "value": "#ced4da",
+        "type": "color"
+      },
+      "$gray-500": {
+        "value": "#adb5bd",
+        "type": "color"
+      },
+      "$gray-600": {
+        "value": "#6c757d",
+        "type": "color"
+      },
+      "$gray-700": {
+        "value": "#495057",
+        "type": "color"
+      },
+      "$gray-800": {
+        "value": "#343a40",
+        "type": "color"
+      },
+      "$gray-900": {
+        "value": "#212529",
+        "type": "color"
+      }
+    },
+    "cool": {
+      "$cool-100": {
+        "value": "#f7f7f7",
+        "type": "color"
+      },
+      "$cool-200": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "$cool-300": {
+        "value": "#cccccc",
+        "type": "color"
+      },
+      "$cool-400": {
+        "value": "#b3b3b3",
+        "type": "color"
+      },
+      "$cool-500": {
+        "value": "#999999",
+        "type": "color"
+      },
+      "$cool-$600": {
+        "value": "#808080",
+        "type": "color"
+      },
+      "$cool-700": {
+        "value": "#666666",
+        "type": "color"
+      },
+      "$cool-800": {
+        "value": "#4d4d4d",
+        "type": "color"
+      },
+      "$cool-900": {
+        "value": "#333333",
+        "type": "color"
+      }
+    },
+    "black": {
+      "$black": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "white": {
+      "$white": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  },
+  "$default": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "$increased": {
+    "value": "5%",
+    "type": "letterSpacing"
+  },
+  "$paragraph-spacingh-01": {
+    "value": "{$1rem} * 2",
+    "type": "paragraphSpacing"
+  },
+  "$decreased": {
+    "value": "-5%",
+    "type": "letterSpacing"
+  },
+  "$paragraph-spacingh-02": {
+    "value": "{$1rem} * 1.5",
+    "type": "paragraphSpacing"
+  },
+  "$paragraph-spacingh-03": {
+    "value": "{$1rem}",
+    "type": "paragraphSpacing"
+  },
+  "$h1-font-size": {
+    "value": "{$font-size-base} * 2.5",
+    "type": "fontSizes"
+  },
+  "$h2-font-size": {
+    "value": "{$font-size-base} * 2",
+    "type": "fontSizes"
+  },
+  "$h3-font-size": {
+    "value": "{$font-size-base} * 1.75",
+    "type": "fontSizes"
+  },
+  "$h4-font-size": {
+    "value": "{$font-size-base} * 1.5",
+    "type": "fontSizes"
+  },
+  "$h5-font-size": {
+    "value": "{$font-size-base} * 1.25",
+    "type": "fontSizes"
+  },
+  "$h6-font-size": {
+    "value": "{$font-size-base}",
+    "type": "fontSizes"
+  },
+  "web-typography": {
+    "$h1": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h1-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h1-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$h2": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h2-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h2-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$h3": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h3-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h3-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$h4": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h4-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$h4-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$body": {
+      "regular": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-base}",
+          "letterSpacing": "{$default}",
+          "paragraphSpacing": "{$paragraph-spacingh-03}"
+        },
+        "type": "typography",
+        "description": "Наборный текст на странице"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-base}",
+          "letterSpacing": "{$default}",
+          "paragraphSpacing": "{$paragraph-spacingh-03}"
+        },
+        "type": "typography",
+        "description": "Наборный текст на странице"
+      }
+    },
+    "$button": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Текст для кнопок"
+      },
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Текст для кнопок"
+      }
+    }
+  },
+  "mobile-typography": {
+    "$h1": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "fontSize": "{$h4-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}"
+        },
+        "description": "Заголовок первого уровня мобайл"
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "fontSize": "{$h4-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}"
+        },
+        "description": "Жирный заголовок первого уровня мобайл"
+      }
+    },
+    "$h2": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-lg}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-lg}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$h3": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "fontSize": "{$font-size-m}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "fontSize": "{$font-size-m}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}"
+        }
+      }
+    },
+    "$h4": {
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$h6-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$h6-font-size}",
+          "paragraphSpacing": "{$paragraph-spacingh-02}",
+          "letterSpacing": "{$default}"
+        }
+      }
+    },
+    "$body": {
+      "regular": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "fontSize": "{$font-size-base}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "{$paragraph-spacingh-03}"
+        },
+        "type": "typography",
+        "description": "Наборный текст на странице"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "fontSize": "{$font-size-base}",
+          "letterSpacing": "{$default}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "{$paragraph-spacingh-03}"
+        },
+        "type": "typography",
+        "description": "Наборный текст на странице"
+      }
+    },
+    "$button": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Текст для кнопок"
+      },
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Текст для кнопок"
+      }
+    }
+  },
+  "all-typography": {
+    "$footnote": {
+      "regular": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-sm}"
+        },
+        "type": "typography",
+        "description": "Шрифт для сносок, атрибутов и второстепенного текста"
+      },
+      "bold": {
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-sm}"
+        },
+        "type": "typography",
+        "description": "Шрифт для сносок, атрибутов и второстепенного текста"
+      }
+    },
+    "$controllabel": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "fontSize": "{$font-size-sm}"
+        },
+        "description": "Шрифт для лейблів біля полів введення, головне меню"
+      },
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "fontSize": "{$font-size-sm}"
+        },
+        "description": "Шрифт для лейблів біля полів введення, головне меню"
+      }
+    },
+    "$control": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Шрифт для кнопок и полей ввода"
+      },
+      "bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Шрифт для кнопок и полей ввода"
+      }
+    },
+    "$lead": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}*1.25",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для описательного абзаца статьи"
+      }
+    },
+    "$table": {
+      "cell-regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "fontSize": "{$font-size-sm}",
+          "fontWeight": "{$font-weight-normal}"
+        },
+        "description": "Шрифт для заголовков таблиц"
+      },
+      "cell-bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "fontSize": "{$font-size-sm}"
+        },
+        "description": "Шрифт для заголовков таблиц"
+      },
+      "head-bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "fontSize": "{$font-size-sm}",
+          "fontWeight": "{$font-weight-bold}"
+        },
+        "description": "Шрифт для заголовков таблиц"
+      }
+    },
+    "$disclaimer": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-xs}",
+          "paragraphSpacing": "{$paragraph-spacingh-03}",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для обязательных по закону пояснений, которые не нужны для использования интерфейса"
+      }
+    },
+    "$quote": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}*1.25",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для цитат"
+      }
+    },
+    "$code": {
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": "",
+          "fontFamily": "{$font-family-monospace}",
+          "fontSize": "{$h4-font-size}"
+        },
+        "description": "Шрифт для цитат"
+      },
+      "bold": {
+        "type": "typography",
+        "value": {
+          "lineHeight": "{$line-height-sm}",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": "",
+          "fontFamily": "{$font-family-monospace}",
+          "fontSize": "{$h4-font-size}",
+          "fontWeight": "{$font-weight-bold}"
+        },
+        "description": "Шрифт для цитат"
+      }
+    },
+    "$display": {
+      "regular-03": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-base}*4",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Декорактивный заголовок больше H1"
+      },
+      "regular-02": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-base}*4.5",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Декорактивный заголовок больше H1"
+      },
+      "regular-01": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-base}",
+          "fontSize": "{$font-size-base}*5",
+          "paragraphSpacing": "{$paragraph-spacingh-01}",
+          "letterSpacing": "{$default}"
+        },
+        "description": "Декорактивный заголовок больше H1"
+      }
+    },
+    "$badge": {
+      "large-regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}*0.75",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для Badge"
+      },
+      "large-bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}*0.75",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для Badge"
+      },
+      "small-regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "fontSize": "{$font-size-base}*0.625",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": "",
+          "lineHeight": "{$line-height-sm}"
+        },
+        "description": "Шрифт для Badge"
+      },
+      "small-bold": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-bold}",
+          "fontSize": "{$font-size-base}*0.625",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": "$textcase.$textcase-n",
+          "lineHeight": "{$line-height-sm}"
+        },
+        "description": "Шрифт для Badge"
+      }
+    },
+    "tooltips": {
+      "$Regular": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{$font-family-sans-serif}",
+          "fontWeight": "{$font-weight-normal}",
+          "lineHeight": "{$line-height-sm}",
+          "fontSize": "{$font-size-base}*0.75",
+          "paragraphSpacing": "",
+          "letterSpacing": "{$default}",
+          "textCase": ""
+        },
+        "description": "Шрифт для підказок"
+      }
+    }
+  },
+  "$font-family-sans-serif": {
+    "value": "Arial",
+    "type": "fontFamilies",
+    "description": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\" !default;"
+  },
+  "$font-family-monospace": {
+    "value": "Courier New",
+    "type": "fontFamilies",
+    "description": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace !default;"
+  },
+  "$font-size-base": {
+    "value": "{$1rem}",
+    "type": "fontSizes"
+  },
+  "$1rem": {
+    "value": "16px",
+    "type": "other"
+  },
+  "$line-height-lg": {
+    "value": "200%",
+    "type": "lineHeights",
+    "description": "2"
+  },
+  "$line-height-base": {
+    "value": "150%",
+    "type": "lineHeights",
+    "description": "1.5"
+  },
+  "$line-height-sm": {
+    "value": "125%",
+    "type": "lineHeights",
+    "description": "1.25"
+  },
+  "$line-height-xs": {
+    "value": "100%",
+    "type": "lineHeights",
+    "description": "1"
+  },
+  "$font-size-sm": {
+    "value": "{$font-size-base} * .875",
+    "type": "fontSizes"
+  },
+  "$font-size-lg": {
+    "value": "{$font-size-base} * 1.25",
+    "type": "fontSizes"
+  },
+  "$font-size-xs": {
+    "value": "{$font-size-base} * 0.75",
+    "type": "fontSizes"
+  },
+  "$font-weight-normal": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "$font-weight-bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  },
+  "$font-size-m": {
+    "value": "{$1rem}*1.125",
+    "type": "fontSizes"
+  },
+  "$tone-value-x1": {
+    "value": "4%",
+    "type": "opacity"
+  },
+  "$tone-value-x3": {
+    "value": "12%",
+    "type": "opacity"
+  },
+  "$tone-value-x4": {
+    "value": "16%",
+    "type": "opacity"
+  },
+  "$tone-value-x6": {
+    "value": "24%",
+    "type": "opacity"
+  },
+  "$tone-value-x8": {
+    "value": "32%",
+    "type": "opacity"
+  },
+  "$tone-value-x12": {
+    "value": "48%",
+    "type": "opacity"
+  },
+  "$tone-value-x16": {
+    "value": "64%",
+    "type": "opacity"
+  },
+  "$tone-value-x20": {
+    "value": "80%",
+    "type": "opacity"
+  },
+  "textcase": {
+    "$textcase-u": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "$textcase-l": {
+      "value": "lowercase",
+      "type": "textCase"
+    },
+    "$textcase-c": {
+      "value": "capitalize",
+      "type": "textCase"
+    },
+    "$textcase-n": {
+      "value": "none",
+      "type": "textCase"
+    }
+  },
+  "$depth2": {
+    "value": {
+      "x": "0",
+      "y": "4",
+      "blur": "32",
+      "spread": "0",
+      "color": "rgba({colors.gray.$gray-900} 16%)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow",
+    "description": "тень у карточеу или контекстных плашек и тултипов указывающих на конкретное место в интерфейсе. не испольтзуется с затемнением фона"
+  },
+  "$depth3": {
+    "value": {
+      "x": "0",
+      "y": "16",
+      "blur": "48",
+      "spread": "0",
+      "color": "rgba({colors.gray.$gray-900} 48%)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow",
+    "description": "тень у попапов и или панелей находящихся поверх затемнения фона"
+  }
+}
